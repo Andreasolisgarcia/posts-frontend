@@ -1,0 +1,24 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    overflow: hidden;    justify-content: center;
+    
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        min-width: 170px;
+        label {
+            padding: 1rem 0;
+        }
+        input {
+            margin: 0.7rem 0;
+            padding: 10px;
+        }
+         
+    }
+
+}

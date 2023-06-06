@@ -1,0 +1,59 @@
+.card{
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    background: white;
+     
+    
+    .header{
+        border-radius: 20px 20px 0 0 ;
+        background: $color5;
+        padding: 10px;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .body {
+        padding: 10px;
+        color: $color1;
+        h2 {
+            padding: 10px 0;
+        }
+    }
+    .footer{
+       padding: 10px;
+       margin-top: auto;
+       font-size: 0.85rem;
+       color: $color4;
+       display: flex;
+       justify-content: space-between;
+       align-items: flex-end;
+
+
+       .more-btn {
+        border-radius: 50px;
+        height: 35px;
+        width: 35px;
+        font-size: 1.7rem;
+        color: $color5;
+        background: $color3;
+        border: none;
+        transition: transform 0.6s ease;
+
+
+        &:hover{
+            color: $color5;
+            background: $color1;
+            cursor: pointer;
+        }
+    }
+    }
+    &:hover {
+        transform: scale(1.02); 
+      }
+}

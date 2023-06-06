@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    align-items: center;
+    background: $color2;
+    color: whitesmoke;
+    height: 50px;
+    text-transform:capitalize;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+        ul{
+            display: flex;
+        }
+        .left-part {
+            width: 30%;
+            justify-content: space-around;
+        }
+        a{
+            color: whitesmoke;
+        }
+    }
+}
